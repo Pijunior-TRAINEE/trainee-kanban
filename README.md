@@ -2,7 +2,7 @@
 
 Material didático (MkDocs, tema Material) e repositório de entregas do Programa de Trainee da diretoria de Projetos da **Pi Júnior UFMG**.
 
-Acesse o conteúdo formatado online: **`https://pijunior-ufmg.github.io/trainee-kanban/`**.
+Acesse o conteúdo formatado online: **[trainee-kanban](https://pijunior-trainee.github.io/trainee-kanban/).**
 
 ---
 
