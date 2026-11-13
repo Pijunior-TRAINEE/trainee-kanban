@@ -1,0 +1,50 @@
+site_name: Trainee Kanban - Pi Júnior
+site_description: Trainee de Metodologia Ágil e Kanban da diretoria de Projetos da Pi Júnior UFMG
+docs_dir: docs
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+nav:
+  - Início: index.md
+  - Semana 1 - Metodologia Ágil e Kanban:
+      - Visão geral: semana-01/index.md
+      - "Fundamentos do Ágil": semana-01/modulo-01-fundamentos-do-agil.md
+      - "Scrum: papéis, eventos e artefatos": semana-01/modulo-02-scrum-papeis-eventos-artefatos.md
+      - "Kanban na prática": semana-01/modulo-03-kanban-na-pratica.md
+      - "Unindo Scrum e Kanban": semana-01/modulo-04-unindo-scrum-e-kanban.md
+      - "Do pedido do cliente ao backlog": semana-01/modulo-05-do-pedido-ao-backlog.md
+      - "Exercício final: simulação Pijunópolis": semana-01/modulo-06-simulacao-pijunopolis.md
+
+copyright: >
+  Equipe de Projetos — Pi Júnior UFMG
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/solid/book
+      link: https://pijunior-ufmg.github.io/pi-lib/
+      name: Pi-Lib (Base de Conhecimento)
+    - icon: fontawesome/solid/globe
+      link: https://www.pijunior.com.br/
+      name: Site Oficial Pi Júnior
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/pijunior_/
+      name: Instagram @pijunior_
+    - icon: fontawesome/solid/envelope
+      link: mailto:projetos@pijunior.com.br
+      name: E-mail de contato

@@ -1,0 +1,10 @@
+[project]
+name = "trainee-kanban"
+version = "0.1.0"
+description = "Material didático e repositório de entregas do Programa de Trainee — Projetos Pi Júnior UFMG"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mkdocs>=1.6.0",
+    "mkdocs-material>=9.5.0",
+]
